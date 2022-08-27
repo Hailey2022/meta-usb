@@ -1,6 +1,6 @@
 tun:
   enable: true
-  stack: system
+  stack: gvisor
   dns-hijack:
     - 'any:53'
   auto-route: true
